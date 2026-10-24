@@ -1,0 +1,32 @@
+#introduction{
+    font-size: 18px;
+}
+.overview{
+    color: green;
+}
+h1{
+    color: red;
+}
+h2{
+    color: red;
+}
+p{
+    color: red;
+}
+button{
+    color: black;
+    background: darkgray;
+}
+body{
+    background: gray;
+}
+img{
+    margin: 10px;
+    border: 6px solid tomato;
+    padding: 20px;
+    width: 50%;
+}
+ul{
+    color: black;
+    background: tomato;
+}
