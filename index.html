@@ -27,11 +27,12 @@
 </ul>
 <script>
   // index.html - Add this script before </body>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js', {scope: '/'})
-    .then(reg => console.log('Service worker registered'))
-    .catch(err => console.log('Service worker registration failed'));
-}   
+ if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/VideoLand/sw.js',
+          {scope: '/VideoLand/'}
+        )
+      }
 </script>
 </body>
 </HTML>
