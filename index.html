@@ -25,11 +25,13 @@
 <button><img src="https://wallpapers.com/images/hd/meme-phone-ea8af38hnbaxospg.webp"</img><a href="https://www.youtube.com/watch?v=ECcRRmTKTJM&pp=ygUXbWVtZXMgaSBjYW4gZmVlZCBteSBkb2c%3D">Clean memes you can show your dog</a></button>
 <button><img src="https://wallpapers.com/images/hd/this-is-fine-lr4rvhyztrd9s3b7.webp"</img><a href="https://www.youtube.com/watch?v=Uo5Rhn8zuPA&pp=ygUaZHJhZ29uIGJhbGwgeiBrYWkgYWJyaWRnZWQ%3D">Dragon Ball Z Kai Abridged: Episode 1</a></button>
 </ul>
-// index.html - Add this script before </body>
+<script>
+  // index.html - Add this script before </body>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js', {scope: '/'})
     .then(reg => console.log('Service worker registered'))
     .catch(err => console.log('Service worker registration failed'));
 }   
+</script>
 </body>
 </HTML>
