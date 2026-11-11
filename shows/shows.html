@@ -1,1 +1,36 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title>Shows - VideoLand</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="canonical" href="https://sirloinofbeef997.github.io/VideoLand/"/>
+<link rel="manifest" href="/VideoLand/manifest.webmanifest">
+</head>
 
+<body>
+<h1>VideoLand</h1>
+<h2>Home</h2>
+<p id="introduction">Welcome!</p>
+<p><b>Welcome!</b></p>
+<p class="overview">Please do something!</p>
+<p>Please do something!</p>
+<p><em>Please!</em></p>
+<button>This does nothing!</button>
+<button><a href="../index.html">Home</a></button>
+<p>Here are some shows and channels I found on YouTube.</p>
+<ul>
+  <button><a href="smg4.html">SMG4</a></button>
+  <button><a href="cav.html">Calling All Villains</a></button>
+</ul>
+<script>
+  // index.html - Add this script before </body>
+ if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/VideoLand/sw.js',
+          {scope: '/VideoLand/'}
+        )
+      }
+</script>
+</body>
+</HTML>
